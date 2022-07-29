@@ -1,5 +1,6 @@
 node_modules/**
 src/stories/**
 **/*.test.jsx
+**/*.test.js
 config/**
 build/**

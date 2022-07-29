@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserDetails componenet renders correctly 1`] = `
+Array [
+  <a
+    href="/user"
+    onClick={[Function]}
+  >
+    Back
+  </a>,
+  <h1>
+    User Details of ID: 
+     
+  </h1>,
+]
+`;
+
+exports[`UserList componenet renders correctly 1`] = `
+Array [
+  <a
+    href="/"
+    onClick={[Function]}
+  >
+    Home
+  </a>,
+  <h1>
+    User List
+  </h1>,
+  <ul>
+    <li>
+      <a
+        href="/user/1"
+        onClick={[Function]}
+      >
+        User
+        1
+      </a>
+    </li>
+    <li>
+      <a
+        href="/user/2"
+        onClick={[Function]}
+      >
+        User
+        2
+      </a>
+    </li>
+    <li>
+      <a
+        href="/user/3"
+        onClick={[Function]}
+      >
+        User
+        3
+      </a>
+    </li>
+  </ul>,
+]
+`;

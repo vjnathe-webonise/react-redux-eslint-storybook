@@ -1,12 +1,12 @@
 import renderer from 'react-test-renderer';
-import Login from './Login';
+import Dashboard from './Dashboard';
 import { BrowserRouter as Router } from 'react-router-dom';
 
-it('Login componenet renders correctly', () => {
+it('Dashboard componenet renders correctly', () => {
   const tree = renderer
     .create(
       <Router>
-        <Login />
+        <Dashboard />
       </Router>
     )
     .toJSON();

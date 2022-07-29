@@ -1,7 +1,15 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Login renders correctly 1`] = `
-<h3>
-  Login
-</h3>
+exports[`Login componenet renders correctly 1`] = `
+Array [
+  <h1>
+    Login
+  </h1>,
+  <a
+    href="/"
+    onClick={[Function]}
+  >
+    Go back
+  </a>,
+]
 `;
